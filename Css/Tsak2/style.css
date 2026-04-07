@@ -1,0 +1,30 @@
+.pseudoclass div{
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+    border: 10px solid black;
+    padding: 10px;
+}
+.pseudoclass div:nth-child(1){
+    background-color: aqua;
+}
+
+.pseudoclass div:nth-child(2){
+    background-color: green;
+}
+.pseudoclass div:nth-child(3){
+    background-color: red;
+}
+.pseudoclass div div{
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+    border: 10px solid black;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.pseudoclass div div:nth-child(1){
+        background-color: purple;
+    }

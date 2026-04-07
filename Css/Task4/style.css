@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: 0px auto;
+}
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+    color: aliceblue;
+}    
+header{
+    background-color: #750db5;
+}   
+.header-wrapper nav a{
+    padding: 20px 0px;
+    color: aliceblue;
+}
+.header-wrapper nav{
+    display: flex;
+    gap: 25px;
+}
+a{
+    text-decoration: none;
+}
+body{
+  font-family: "Montserrat", sans-serif;
+}
+.img img{
+    width: 450px;
+    height: 450px;
+}
+.banner-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-wrapper p{
+    margin: 30px 0px;
+    line-height: 30px;
+}
+.banner-wrapper h1{
+    font-size: 48px;
+    font-weight: 600;
+    color: #505050;
+    
+}
+
+.btn{
+    display: flex;
+    gap: 50px;  
+    align-items: center;
+}
+
+.btn a:first-child{
+    background-color: orange;
+    padding: 15px 30px;
+    color: white;
+    border-radius: 15px;
+    font-weight: 600;
+}
+.btn a:last-child{
+    color: black;
+    font-weight: 600;
+}
+.banner{
+    padding: 100px 0px;
+}
+.container h2{
+    margin-bottom: 30px;
+}
+.the-jobs-wrapper{
+    display: flex;
+    gap: 20px;
+}
+
+.the-jobs-wrapper > div{
+    padding: 30px;
+    color: white;
+    border-radius: 15px;
+}
+.the-jobs-wrapper > div:nth-child(1){
+    background-color: green;
+}
+
+.the-jobs-wrapper > div:nth-child(2){
+    background-color: purple;
+}
+
+.the-jobs-wrapper > div:nth-child(3){
+    background-color: brown;
+}
+
+.the-jobs-wrapper>div>span{
+    display: inline-block;
+    color: red;
+    margin: 10px 0px;
+}
+.the-jobs-wrapper>div>p{
+    margin: 10px;
+}
+
+.the-jobs-wrapper>div>div{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.the-jobs-wrapper>div>div a{
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: transparent;
+    
+}
+.the-jobs-wrapper>div>div>a:hover{
+    background-color: orange;
+    color: black;
+    transition: all 1000ms;
+}
+
+footer{
+    margin-top: 50px;
+    padding: 20px 0px;
+    background-color: grey;
+}
+
+footer p{
+    text-align: center;
+    color: blue;
+}

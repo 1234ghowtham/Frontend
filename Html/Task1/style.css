@@ -1,0 +1,38 @@
+h3{
+    color: burlywood;
+}
+h1{
+    font-family: sans-serif;
+    font-size: 275%;
+    color: aquamarine;
+}
+#blog1{
+    background-color: red;
+    padding: 100px;
+    border: 13px solid black;
+    border-top: 10px solid green;
+    margin: 30px;
+}
+#blog2{
+    color: orange;
+}
+table {
+    table-layout: auto;  /* or auto */
+    width: 50%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid black;
+}
+#tablehead{
+    table-layout: auto;
+    width: 50%;
+    color: blue;
+    border: 1px solid black;
+}
+#tablebody{
+    table-layout: fixed;
+    width: 50%;
+    color: rebeccapurple;
+    border: 1px solid black;
+}

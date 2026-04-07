@@ -1,0 +1,30 @@
+#parent-div1 {
+    background-color: orange;
+    height: 250px;
+    width: 250px;
+    position: relative;
+}
+#child-div1{
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+#parent-div2{
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+}
+#parent-div3{
+    background-color: rosybrown;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
