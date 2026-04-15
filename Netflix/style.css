@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.netflix-logo{
+    width: 148px;
+    height: auto;
+}
+select{
+    width: 124.4px;
+    height: 32px;
+}
+a{
+    text-decoration: none;
+}
+header{
+    display: flex;
+    margin: 10px 120px;
+    padding: 0px 40px;
+}
+header div:nth-child(1){
+    background-color: antiquewhite;
+    padding-right: 80px;
+}
+header div:nth-child(2){
+    background-color: aquamarine;
+    margin-left: auto;
+}
+header div:nth-child(3){
+    background-color: aquamarine;
+}
